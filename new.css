@@ -1,0 +1,45 @@
+html {
+    height: 200vh;
+}
+
+
+img {
+    width: 100px;
+}
+
+img:hover {
+    transform: scale(1);
+}
+
+.hybrids {
+    height: 900px;
+}
+
+.s1 {
+    color: goldenrod;
+}
+
+#extra {
+    font-size: 13px;
+}
+
+#extraProduct {
+    height: 105vh;
+}
+
+.sativa {
+    min-height: 120vh;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+

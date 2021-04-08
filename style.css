@@ -1,0 +1,397 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+html {
+    height: 110vh;
+}
+
+
+
+section {
+    width: 100%;
+    height: 110vh;
+}
+
+nav {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family:Great Vibes;
+    font-size:80px;
+    letter-spacing:0;
+    font-style:normal;
+    font-weight:400;
+    color: whitesmoke;
+}
+
+.links {
+    width: 100%;
+    height: 15vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family:cursive;font-size:29px;letter-spacing:0;font-style:normal;font-weight:700;color: white;
+}
+
+a:hover {
+    background: white;
+    transition: 300ms;;
+    color: #004203;
+    padding: 13px 13px 13px 13px;
+}
+main {
+    width: 100%;
+    height: 55vh;
+   background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second {
+    color: goldenrod;
+}
+.section3 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   background-color: black;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+h2 {
+    font-family:cursive;font-size:52px;letter-spacing:0;font-style:normal;font-weight:400;color: white;
+}
+
+h3 {
+    font-family:cursive;font-size:32px;letter-spacing:0;font-style:normal;font-weight:400;color: white;
+}
+
+p {font-family:cursive;font-size:22px;letter-spacing:0;font-style:normal;font-weight:400;color:white}
+
+.middle {
+    width: 1px;
+    height: 170px;
+    background: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: goldenrod;
+    font-family: cursive;
+}
+
+
+@media screen and (max-width: 680px) {
+    .section1 {
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .section3, .content {
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+        align-items: center;
+        text-align: center;
+    }
+
+    .lower {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery {
+        min-height: 130vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .row1, .row2, .row3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-height: 35vh;
+        justify-content: center;
+    }
+
+    .footer {
+        font-size: 15px;
+    }
+    
+    .section3 {
+        min-height: 130vh;
+    }
+    .information >p {
+        font-size: 16px;
+        height: 120vh;
+    }
+    .information {
+        height: 130vh;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.section2 {
+    width: 100%;
+    height: 500vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.indica {
+ width: 100%;
+ min-height: 220vh;
+ margin-top: 60px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+
+.intro {
+    width: 25%;
+    height: 10vh;
+    text-align: center;
+}
+
+.description {
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+}
+
+
+
+
+.indicaProducts {
+    width: 100%;
+    height: 120vh;
+    
+}
+
+.top, .bottom {
+    width: 100%;
+    height: 110vh;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    width: 30%;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.imageProduct {
+    width: 40%;
+    height: 30vh;
+    
+}
+
+.descriptionProduct {
+    width: 100%;
+    height: 25vh;
+   font-family: cursive;
+   font-size: 15px;
+}
+
+.prices {
+    width: 100%;
+    height: 45vh;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.price, .weight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.gallery {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.row1, .row2, .row3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h6 {
+    font-family:cursive;font-size:52px;letter-spacing:0;font-style:normal;font-weight:400;color:goldenrod;  
+}
+
+
+img:hover {
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
+.information {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+span, ul {
+    font-family:cursive;font-size:22px;letter-spacing:0;font-style:normal;font-weight:400;color:white  
+}
+
+
+div.indica.sativa {
+    min-height: 130vh;
+}
+
+div.indica.hybrids {
+    min-height: 110vh;
+}
+
+
+
+.weight {
+    font: 20px;
+}
+
+
+@media screen and (max-width: 680px) {
+         
+
+    .section2 {
+        height: 1900vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .top, .bottom {
+        height: 470vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .product {
+        display: none;
+    }
+    #pink, #king, #extraProducttuna {
+        display: block;
+        width: 80%;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+
+    #king {
+        height: 150vh;
+    }
+
+    #extraProducttuna {
+        height: 160vh;
+    }
+    .hybrids  {
+        height: 750vh;
+      margin-top: 2000px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+        
+    }
+
+    
+    
+}
